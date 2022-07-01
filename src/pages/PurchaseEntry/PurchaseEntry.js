@@ -105,7 +105,7 @@ class PurchaseEntry extends Component {
             <p className="section-title">Purchase Entry</p>
             <div className="form-add-post">
                 <label htmlFor="product_name">Nama Produk</label>
-                <input type="text" value={this.state.formPurchase.title} name="product_name" placeholder="Nama Produk" onChange={this.handleFormChange} />
+                <input type="text" value={this.state.formPurchase.product_name} name="product_name" placeholder="Nama Produk" onChange={this.handleFormChange} />
                 <label htmlFor="quantity_product">Total Produk</label>
                 <input type="text" value={this.state.formPurchase.quantity_product} name="quantity_product" placeholder="Total Product" onChange={this.handleFormChange} />
                 <label htmlFor="price">Price</label>

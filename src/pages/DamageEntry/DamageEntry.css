@@ -55,7 +55,7 @@
     margin-bottom: 16px;
 }
 
-.content p.price {
+.content p.damaged-product {
     margin: 0px;
     font-size: 20px;
     font-weight: 500;
@@ -63,15 +63,7 @@
     margin-bottom: 16px;
 }
 
-.content p.vendor-name {
-    margin: 0px;
-    font-size: 20px;
-    font-weight: 500;
-    color: #3d4a6e;
-    margin-bottom: 16px;
-}
-
-.content p.total {
+.content p.normal-product {
     margin: 0px;
     font-size: 20px;
     font-weight: bold;

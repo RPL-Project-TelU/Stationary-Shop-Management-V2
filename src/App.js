@@ -1,5 +1,6 @@
 import './App.css';
 import PurchaseEntry from './pages/PurchaseEntry/PurchaseEntry';
+import DamageEntry from './pages/DamageEntry/DamageEntry';
 
 function App() {
   return (
