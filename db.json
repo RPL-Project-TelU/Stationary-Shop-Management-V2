@@ -1,0 +1,16 @@
+{
+  "post-sales-entry": [
+    {
+      "id": 1,
+      "purchase": "5 Buku",
+      "price": 50000,
+      "payment": 1000
+    },
+    {
+      "id": 1656704186922,
+      "purchase": "8 Penggaris",
+      "price": "40000",
+      "payment": "50000"
+    }
+  ]
+}
