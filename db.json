@@ -1,0 +1,28 @@
+{
+  "post-setup-and-view-product": [
+    {
+      "id": 1,
+      "code_product": "ERA01",
+      "product_name": "Pensil",
+      "vendor_name": "Lyra",
+      "quantity_product": 5,
+      "price": 200000
+    },
+    {
+      "id": 1656686986608,
+      "code_product": "ERA01",
+      "product_name": "Penggaris",
+      "vendor_name": "Puma",
+      "quantity_product": "4",
+      "price": "7000"
+    }
+  ],
+  "post-sales-entry": [
+    {
+      "id": 1656693658970,
+      "purchase": "5 Kapur",
+      "price": "5000",
+      "payment": "7000"
+    }
+  ]
+}
