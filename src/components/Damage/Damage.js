@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Purchase = (props) => {
+const Damage = (props) => {
   const total_product= props.data.quantity_product - props.data.damaged_product;
   return (
     <div className='card'>
@@ -19,4 +19,4 @@ const Purchase = (props) => {
   )
 }
 
-export default Purchase;
+export default Damage;
