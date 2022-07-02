@@ -33,8 +33,6 @@ function Login() {
         <button className='loginB' onClick={signIn}>Sign</button>
         <button className="buttonCreate" onClick={register}>Create your account</button>
       </div>
-     
-
     </div>
   );
 }

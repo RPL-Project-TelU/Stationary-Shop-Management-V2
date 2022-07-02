@@ -4,6 +4,7 @@ import {useAuthState} from "react-firebase-hooks/auth";
 import {auth} from '../Firebase';
 import BannerImage from '../assets/shopImage.jpg';
 import BannerImage2 from '../assets/shop.jpg';
+
 import '../styles/components/Home.css'
 
 const Home = () => {
@@ -29,29 +30,11 @@ const Home = () => {
     <div className='home' style={{ backgroundImage: `url(${BannerImage})` }} >
       <div className='headerContainer' style={{ backgroundImage: `url(${BannerImage2})` }}>
         <h1 className="border-dark">WELCOME TO STATIONARY SHOP</h1>
-        <Link to="/Menu">
-           <div className='Home-Features'>
-              <button onClick={toggleHome}>Sale-Entry</button>
-              <button onClick={toggleHome}>Damage-Entry</button>
-              <button onClick={toggleHome}>Purchase-Entry</button>
-              <button onClick={toggleHome}>-Setup</button>
-              <button onClick={toggleHome}>View</button>
-              <Link to="/Calculator">
-                  <button onClick={toggleHome}>Calculator</button>
-              </Link> 
-           </div>
-        </Link>
-        <Link to="/Member">
-          <div className="MemberYPR"></div>
-        </Link>
-        {/* <Link to="/">
-           <button onClick={toggleHome}>Signout</button>
-        </Link> */}
-      </div>
-      <div className="logOutContainer">
+        <div className="logOutContainer">
         <Link to="/">
            <button onClick={toggleHome}>Signout</button>
         </Link>
+      </div>
       </div>
     </div>
   );
