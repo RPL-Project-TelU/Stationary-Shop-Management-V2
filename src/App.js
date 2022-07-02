@@ -1,11 +1,10 @@
 import './App.css';
-import PurchaseEntry from './pages/PurchaseEntry/PurchaseEntry';
-import DamageEntry from './pages/DamageEntry/DamageEntry';
+import SetupAndViewProduct from './pages/SetupAndViewProduct/SetupAndViewProduct';
 
 function App() {
   return (
     <div className="App">
-      <PurchaseEntry /> 
+      <SetupAndViewProduct /> 
     </div>
   );
 }
