@@ -1,0 +1,26 @@
+{
+  "post-purchase-entry": [
+    {
+      "id": 1656703431801,
+      "product_name": "Penghapus",
+      "quantity_product": "4",
+      "price": "7000",
+      "vendor_name": "Puma"
+    },
+    {
+      "id": 1656703607488,
+      "product_name": "Pulpen",
+      "quantity_product": "5",
+      "price": "4000",
+      "vendor_name": "Puma"
+    }
+  ],
+  "post-damage-entry": [
+    {
+      "id": 1656704512683,
+      "product_name": "Pulpen",
+      "quantity_product": "60",
+      "damaged_product": "40"
+    }
+  ]
+}
