@@ -6,4 +6,3 @@
 3. Akbar Sirajuddin Hanif
 4. Hilmi Fadhilah Cahyadi 
 5. Jeremia Carlo Christianto Silitonga
-6. Tasyrika Nurul Hajar
