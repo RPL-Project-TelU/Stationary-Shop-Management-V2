@@ -1,4 +1,18 @@
 {
+  "post-sales-entry": [
+    {
+      "id": 1,
+      "purchase": "5 Buku",
+      "price": 50000,
+      "payment": 1000
+    },
+    {
+      "id": 1656725963745,
+      "purchase": "6 Pulpen",
+      "price": "20000",
+      "payment": "50000"
+    }
+  ],
   "post-setup-and-view-product": [
     {
       "id": 1,

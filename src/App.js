@@ -1,5 +1,5 @@
 import './App.css';
-import SetupAndViewProduct from './pages/SetupAndViewProduct/SetupAndViewProduct';
+import SalesEntry from './pages/SalesEntry/SalesEntry';
 import Login from './pages/Login/Login'
 import './styles/Features/Calculator.css'
 import Navbar from './components/Navbar';
@@ -12,16 +12,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-        <Router>
-          <Navbar/>
-          <Routes> 
-            <Route path="/" element={<Login />} />
-            <Route path='/home' element={<Home/>}/>
-            <Route path='/menu' element={<Menu/>}/>
-            <Route path='/Calculator' element={<Calculator/>}/>
-          </Routes>
-          <Footer/>
-        </Router>   
+        <SalesEntry/>
     </div>
   );
 }
