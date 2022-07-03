@@ -16,6 +16,29 @@
   margin-left: 50px;
   margin-right: 50px;
 }
+.logOutContainer {
+  padding: 50px 50px;
+  background: none;
+  width: 300px;
+  height: 200px;
+  color: white;
+  border-radius: 4px;
+  outline: none;
+  margin-top: 18px;
+  margin-right: 10px;
+}
+
+.logOutContainer button {
+  padding: 12px 18px;
+  background: black;
+  width: 150px;
+  height: 50px;
+  color: white;
+  border-radius: 4px;
+  outline: none;
+  margin-top: 18px;
+  margin-right: 10px;
+}
 
 .headerContainer h1 {
   justify-content: center;

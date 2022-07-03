@@ -3,7 +3,7 @@ import React from 'react'
 const Purchase = (props) => {
   const total_bill_amount = props.data.quantity_product * props.data.price;
   return (
-    <div className='card'>
+    <div className="card">
         <div className="img-tumb">
             <img src="https://placeimg.com/200/150/tech" alt="dummy"/>
         </div>

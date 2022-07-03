@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react'
 import './SalesEntry.css';
 import axios from 'axios';
-import Sales from '../../component/Sales/Sales';
+import Sales from '../../components/Sales/Sales';
 
 class SalesEntry extends Component {
     state= {
