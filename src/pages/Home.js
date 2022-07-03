@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import {Link, useNavigate} from 'react-router-dom';
 import {useAuthState} from "react-firebase-hooks/auth";
-import {auth} from '../Firebase';
+import {auth} from './Login/Firebase';
 import BannerImage from '../assets/shopImage.jpg';
 import BannerImage2 from '../assets/shop.jpg';
 import '../styles/components/Home.css'

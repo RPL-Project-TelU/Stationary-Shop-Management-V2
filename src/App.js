@@ -1,8 +1,9 @@
 import './App.css';
+import SetupAndViewProduct from './pages/SetupAndViewProduct/SetupAndViewProduct';
+import Login from './pages/Login/Login'
 import './styles/Features/Calculator.css'
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Login from './Login';
 import Home from './pages/Home'
 import Menu from './pages/Menu';
 import Calculator from './Features/Calculator'

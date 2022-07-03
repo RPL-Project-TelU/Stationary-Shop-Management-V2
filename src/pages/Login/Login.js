@@ -1,4 +1,4 @@
-import './App.css';
+import './Login.css';
 import { useState } from 'react';
 import {auth} from './Firebase'
 import { useNavigate } from 'react-router-dom'
