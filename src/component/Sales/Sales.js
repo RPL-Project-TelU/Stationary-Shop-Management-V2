@@ -5,7 +5,7 @@ const Sales = (props) => {
   return (
     <div className='card'>
         <div className="img-tumb">
-            <img src="https://placeimg.com/200/150/tech" alt="dummy"/>
+            <img src="https://pintek.id/blog/wp-content/uploads/2021/01/tujuan-koperasi-sekolah-scaled-1.jpg" alt="dummy"/>
         </div>
         <div className="content">
             <p className="purchase"> Pembelian : {props.data.purchase}</p>
