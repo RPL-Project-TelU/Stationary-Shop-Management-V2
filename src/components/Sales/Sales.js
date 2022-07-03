@@ -3,7 +3,7 @@ import React from 'react'
 const Sales = (props) => {
   const change_amount = props.data.payment - props.data.price;
   return (
-    <div className='card'>
+    <div className="card-sales">
         <div className="img-tumb">
             <img src="https://placeimg.com/200/150/tech" alt="dummy"/>
         </div>
