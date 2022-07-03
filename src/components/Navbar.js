@@ -13,7 +13,6 @@ function Navbar() {
     const toggleNavbar = () => {
         setOpenLinks(!openLinks);
     };
-
     return (
         <div className="navbar">
             <div className="leftSide text-white text-center d-flex" id={openLinks ? "open" : "close"}>

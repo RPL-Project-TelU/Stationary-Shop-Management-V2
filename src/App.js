@@ -15,20 +15,20 @@ import SetupAndViewProduct from './pages/SetupAndViewProduct/SetupAndViewProduct
 function App() {
   return (
     <div className="App">
-        <Router>
+         <Router>
           <Navbar/>
-          <Routes> 
-            <Route path="/" element={<Login />} />
-            <Route path='/home' element={<Home/>}/>
-            <Route path='/menu' element={<Menu/>}/>
-            <Route path='/Calculator' element={<Calculator/>}/>
-            <Route path='/PurchaseEntry' element={<PurchaseEntry/>}/>
-            <Route path='/DamageEntry' element={<DamageEntry/>}/>
-            <Route path='/SalesEntry' element={<SalesEntry/>}/>
-            <Route path='/SetupAndViewProduct' element={<SetupAndViewProduct/>}/>
-          </Routes>
+            <Routes>
+              <Route path="/" element={<Login />} />
+              <Route path='/home' element={<Home/>}/>
+              <Route path='/menu' element={<Menu/>}/>
+              <Route path='/Calculator' element={<Calculator/>}/>
+              <Route path='/PurchaseEntry' element={<PurchaseEntry/>}/>
+              <Route path='/DamageEntry' element={<DamageEntry/>}/>
+              <Route path='/SalesEntry' element={<SalesEntry/>}/>
+              <Route path='/SetupAndViewProduct' element={<SetupAndViewProduct/>}/>
+            </Routes>
           <Footer/>
-        </Router>   
+         </Router>
     </div>
   );
 }
