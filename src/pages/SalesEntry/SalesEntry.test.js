@@ -1,6 +1,6 @@
 import {render, screen} from '@testing-library/react'
 import userEvent from '@testing-library/user-event';
-import SalesEntry from './SalesEntry';
+import SalesEntry from '../SalesEntry/SalesEntry';
 
 describe ("Test Sale Entry Components", () => {
   test("render the form Sale Entry with 1 button", async () => {

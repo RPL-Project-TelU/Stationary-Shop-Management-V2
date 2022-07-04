@@ -2,7 +2,7 @@ import React from 'react'
 
 const SetupAndView = (props) => {
   return (
-    <div className='card'>
+    <div className="card-setupandview">
         <div className="img-tumb">
             <img src="https://placeimg.com/200/150/tech" alt="dummy"/>
         </div>

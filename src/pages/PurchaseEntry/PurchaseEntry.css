@@ -20,7 +20,7 @@
     object-fit: cover;
 }
 
-.card{
+.card-purchase {
     border-radius: 10px;
     background: black;
     display: flex;

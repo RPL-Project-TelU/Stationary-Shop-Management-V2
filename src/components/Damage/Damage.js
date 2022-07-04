@@ -3,7 +3,7 @@ import React from 'react'
 const Damage = (props) => {
   const total_product= props.data.quantity_product - props.data.damaged_product;
   return (
-    <div className='card'>
+    <div className="card-damage">
         <div className="img-tumb">
             <img src="https://placeimg.com/200/150/tech" alt="dummy"/>
         </div>
