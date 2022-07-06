@@ -39,14 +39,14 @@ describe ("Test Damage Entry Components", () => {
   test("damage product field should accept Barang Rusak",async () => {
     render(<DamageEntry/>);
     const damaged_product = await screen.findByPlaceholderText("Barang Rusak");
-    userEvent.type(damaged_product, "empat puluh")
-    expect(damaged_product.value).not.toMatch("40");
+    userEvent.type(damaged_product, "rusak")
+    expect(damaged_product.value).not.toMatch("Rusak");
   });
   test("damage product field should accept Barang Rusak",async () => {
     render(<DamageEntry/>);
     const damaged_product = await screen.findByPlaceholderText("Barang Rusak");
-    userEvent.type(damaged_product, "40")
-    expect(damaged_product.value).toMatch("40");
+    userEvent.type(damaged_product, "Normal")
+    expect(damaged_product.value).toMatch("Normal");
   });
   test('calls onClick prop when clicked', () => {
     const handleClick = jest.fn();
