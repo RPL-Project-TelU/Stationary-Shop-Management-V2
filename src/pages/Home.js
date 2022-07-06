@@ -32,7 +32,7 @@ const Home = () => {
         <h1 className="border-dark">WELCOME TO STATIONARY SHOP</h1>
         <div className="logOutContainer">
         <Link to="/">
-           <button onClick={toggleHome}>Signout</button>
+           <button className="ButtonSignOut" onClick={toggleHome}>Signout</button>
         </Link>
       </div>
       </div>
